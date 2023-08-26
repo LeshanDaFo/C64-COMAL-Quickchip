@@ -8,12 +8,12 @@ https://www.c64-wiki.com/wiki/Commodore-64_Comal_80_rev_2.01<br />
 
 #### Info about the modul:
 
-This modul contains a floppy speeder for COMAL
+This modul contains a floppy speeder for COMAL<br />
 loading from the attached floppy disc can be 3 to 5 times faster then normal
 
 The source code was created on the basis of COMAL80 Quickchip extensions freely available on the Internet.<br />
-The extensions created with this source code were compared by me with the existing data and correspond to this 1:1
-I have only changed the fillbytes at the end of the program.
+The extensions created with this source code were compared by me with the existing data and correspond to this 1:1<br />
+I have have only changed the fillbytes at the end of the program.
 
 The source code is mostly undocumented, only in a few places I have added some documentation.
 
