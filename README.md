@@ -6,7 +6,7 @@ https://www.c64-wiki.com/wiki/Commodore-64_Comal_80_rev_2.01<br />
 
 ### QuickChip for COMAL80 is an extension for the existing COMAL80 module for the C64/C128
 
-#### Info about the modules:
+#### Info about the modul:
 
 This modul contains a floppy speeder for COMAL
 loading from the attached floppy disc can be 3 to 5 times faster then normal
