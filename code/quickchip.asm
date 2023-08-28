@@ -297,7 +297,7 @@ L8245
     JMP $FFAB
 
 fill2
-    !fill $8500-fill2,$ff
+;    !fill $8500-fill2,$ff
 
 ; $8500
 L8500
@@ -356,9 +356,9 @@ L8560
 !pet ",read error,"
 msgstart
 L856c
-!text "  dIETER wOHLLEBEN  4400 mUENSTER    ";,$64,"ieter ",$77,"ohlleben  4400 ",$6D,"uenster    "
+!text " dIETER wOHLLEBEN  4400 mUENSTER    "
 !by $11,$0d
-!text " kOENIGSBERGER sTR. 59          ";!pet $20,$6B,"oenigsberger ",$73,"tr. 59          "
+!text " kOENIGSBERGER sTR. 59          "
 !by $11,$0D
 msgend
 fill3
@@ -451,7 +451,7 @@ L8A91
     !by >L8500                  ;Address high byte
  
 fill4
-!fill $8AE0-fill4,$ff
+;!fill $8AE0-fill4,$ff
 
 ; $8ae0
     PHA
@@ -576,7 +576,7 @@ L8BBD
     RTS
 
 fill5
-!fill $8C00-fill5,$ff
+;!fill $8C00-fill5,$ff
 
 L8C00
     LDA #$30
