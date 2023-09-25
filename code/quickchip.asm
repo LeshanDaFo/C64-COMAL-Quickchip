@@ -38,8 +38,8 @@ start
     !by $00
 
 ; table of procedure names
-; name length    cheader pointer
- ; $8023
+; name length    header pointer
+; $8023
 proct1
     !pet $09,"load'fast"
     !word loadfast_h
@@ -213,7 +213,7 @@ L81A3
     JSR $FFA8
     JMP $FFAE
 ---------------------------------
-; copy c64 fast loade to $c000
+; copy c64 fast loader to $c000
 L81DA
     LDY #$00
 L81DC
@@ -297,7 +297,7 @@ L8245
     JMP $FFAB
 
 fill2
-;    !fill $8500-fill2,$ff
+    !fill $8500-fill2,$ff
 
 ; $8500
 L8500
@@ -451,7 +451,7 @@ L8A91
     !by >L8500                  ;Address high byte
  
 fill4
-;!fill $8AE0-fill4,$ff
+    !fill $8AE0-fill4,$ff
 
 ; $8ae0
     PHA
@@ -576,7 +576,7 @@ L8BBD
     RTS
 
 fill5
-;!fill $8C00-fill5,$ff
+    !fill $8C00-fill5,$ff
 
 L8C00
     LDA #$30
@@ -667,7 +667,7 @@ L8C9D
     !by $00,$10,$20,$30
 
 fill6
-!fill $bfff-fill6,$ff
+    !fill $bfff-fill6,$ff
 
 .end
     !by $ff
